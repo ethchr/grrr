@@ -45,7 +45,7 @@ stop_grrr <- function(){
 error_counter <- function(err){
   grrr$count <- grrr$count + 1
   if (grrr$count >= grrr$cutoff){
-    play("C:/Users/Ethan/Downloads/dragon_ball_z_scream.wav")  
+    tuneR::play("C:/Users/Ethan/Downloads/dragon_ball_z_scream.wav")  
     grrr$count <- 0
   }
   #sound <- system.file(

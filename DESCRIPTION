@@ -1,0 +1,11 @@
+Package: grrr
+Title: Error Handler with Audio
+Version: 0.0.0.9000
+Authors@R: person("Ethan", "Christensen", email = "christensen.ej@gmail.com", role = c("aut", "cre"))
+Description: This package contains a custom error handler that tracks the count of errors and warning messages throughout the session. When this counter reaches a given value, an audio file plays.
+Depends: R (>= 3.6.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: tuneR
+RoxygenNote: 6.1.1

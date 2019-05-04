@@ -5,4 +5,4 @@ My goal is to make a fun package that will track errors and warnings in R and re
 
 As of May 2, the basic code works. I have room to improve it, but the basics are there (largely thanks to Colin Fay's argh package). Some of the improvements will come when I turn this into it's own package, which I will try to do tomorrow.
 
-As of May 3, the package should be built more or less. I get a dependencies warning, and the .Rproj is non-standard, apparently.
+As of May 3, the package should work. I've still got the .Rproj file (I'm not sure what happens if I delete that, honestly), but it should be possible to pull from github and use for me. It still has hardcoded audio paths though.

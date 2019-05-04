@@ -22,7 +22,6 @@ init_grrr <- function(
   mov = 2,
   audio = "goku"
 ){
-  library(tuneR)
   cutplus <- cutoff + mov
   cutmin  <- cutoff - mov
   grrr$count <- 0
